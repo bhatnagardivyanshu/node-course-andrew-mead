@@ -1,0 +1,27 @@
+{
+    "name": "chat-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon server/server.js",
+        "test": "mocha server/**/*.test.js",
+        "test-with-jest": "jest",
+        "test-watch": "nodemon --exec \"npm test\""
+    },
+    "engines": {
+        "node": "8.11.2"
+    },
+    "author": "Divyanshu Bhatnagar",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.4",
+        "moment": "^2.23.0",
+        "socket.io": "^2.2.0"
+    },
+    "devDependencies": {
+        "jest": "^23.6.0",
+        "mocha": "^5.2.0",
+        "nodemon": "^1.18.7"
+    }
+}
